@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Jira Ticket ID Copier",
+    "version": "1.0",
+    "description": "Quickly copy Jira ticket IDs to clipboard with a keyboard shortcut.",
+    "host_permissions": [
+        "https://*.atlassian.net/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.atlassian.net/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "icons": {
+        "128": "icon.png"
+    }
+}
