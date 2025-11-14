@@ -11,7 +11,7 @@ Often times you are typing a message and want to link or reference a Jira ticket
 That doesn't read very nicely. The alternative is to manually link it by typing out the markdown
 > Hey I was looking into [PROJECT-123]\(https://mycompany.atlassian.net/browse/PROJECT-123) and...
 
-That is a lot of typing. Or if a certain specific enterprise messaging application tricks you into thinking it supports Markdown but actually uses its own think called `mrkdown` which doesn't support Markdown links, you now have to type it out, highlight the ticket ID, and paste in the hyperlink.
+That is a lot of typing. Or if a certain specific enterprise messaging application tricks you into thinking it supports Markdown but actually uses its own thing called `mrkdown` which doesn't support Markdown links, you now have to type it out, highlight the ticket ID, and paste in the hyperlink.
 > Hey I was looking into PROJECT-123 <highlight PROJECT-123> <paste> <enter> and...
 
 That is a lot of work.
