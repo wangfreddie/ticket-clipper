@@ -73,7 +73,7 @@ function copyForSlack() {
                 'text/plain': new Blob([url], { type: 'text/plain' })
             })
         ]).then(() => {
-            showToast(`Copied Slack link: ${ticketId}`);
+            showToast(`Copied Rich Text: ${ticketId}`);
         }).catch(err => {
             console.error('Failed to copy Slack link:', err);
             // Fallback to plain URL
